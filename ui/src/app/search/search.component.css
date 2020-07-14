@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+    height: 30mm;
+    padding-top: 10mm;
+    padding-left: 20mm;
+}
+
+.search {
+    width: 70mm;
+    height: 10mm;
+}
+
+.success {
+    height: 10mm;
+}
