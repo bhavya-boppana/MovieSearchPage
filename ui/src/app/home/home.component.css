@@ -1,4 +1,20 @@
 .container {
-    margin-top: 10mm;
-    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-image: url(https://www.videopoint.co.uk/wp-content/uploads/2019/10/pile-of-cine-trans-1.png);
+    height: 180mm;
+    padding-top: 30mm;
+    padding-left: 90mm;
+}
+
+.search {
+    width: 80mm;
+    height: 10mm;
+}
+
+.success {
+    height: 10mm;
 }

@@ -1,1 +1,5 @@
-<p>movie works!</p>
+<img [src]='movie.Poster'>
+<div container="row" *ngFor="let key of keys();">
+    <div *ngIf="movie[key]!==Nill && key!=='Poster' && key!=='Response' && key!='Ratings'">
+        <b>{{key}}:</b>{{movie[key]}}</div>
+</div>

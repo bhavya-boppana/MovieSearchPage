@@ -11,8 +11,9 @@
                 </div>
                 <div class="card-body ">
                     <h5 class="card-title ">{{movie.Title}}</h5>
-                    <p class="card-text ">Type:{{movie.Type}} year:{{movie.Year}}</p>
-                    <a href="# " class="btn btn-primary ">view</a>
+                    <p class="card-text ">Type:{{movie.Type}} year:{{movie.Year}}
+                    </p>
+                    <button type="button" class="btn btn-primary  success" (click)="s(movie.imdbID)">view</button>
                 </div>
             </div>
         </div>
